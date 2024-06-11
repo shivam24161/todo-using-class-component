@@ -1,0 +1,42 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  border-radius: 8px;
+}
+input {
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+button {
+  border-radius: 8px;
+  cursor: pointer;
+}
+td {
+  padding: 4px 8px;
+}
+.todo-container {
+  padding: 0 10px;
+}
+.update-todo {
+  background-color: orange;
+  color: #ffffff;
+  font-weight: 550;
+}
+
+.add-todo {
+  background-color: olivedrab;
+  color: #ffffff;
+  font-weight: 550;
+}
+
+.update-todo-cell , .delete-todo-cell {
+  padding: 4px 8px;
+  font-weight: 500;
+}
+.update-todo-cell {
+  background-color: rgb(250, 250, 83);
+}
+.delete-todo-cell  {
+  background-color: rgb(253, 187, 187);
+}
